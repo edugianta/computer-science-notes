@@ -1,0 +1,4 @@
+# Ignore specific subfolders across all directories
+**/hwks/
+**/lecs/
+**/labs/
