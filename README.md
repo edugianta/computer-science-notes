@@ -1,6 +1,6 @@
 # computer-science-notes
 
-Read this in [中文](docs/README.zh_CN.md).  
+Read this in [中文](docs/README.zh-CN.md).  
 
 ## Description
 
