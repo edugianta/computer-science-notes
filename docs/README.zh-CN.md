@@ -1,14 +1,8 @@
-# computer-science-notes
+# 计算机科学笔记
 
-Read this in [中文](docs/README.zh_CN.md).  
+我在宁波诺丁汉大学（UNNC）攻读计算机科学学士学位（非人工智能方向）的课程笔记。
 
-## Description
-
-Notes for my Computer Science Degree (bachelors, no AI) at the University of
-Nottingham Ningbo China (UNNC).
-
-## File structure
-
+## 文件结构
 ```
 .
 ├── comp fundamentals/
@@ -31,8 +25,7 @@ Nottingham Ningbo China (UNNC).
     └── notes/
 ```
 
-## How do I open these notes?
 
-These notes are written in **markdown** (in `.md`) files, meaning you need a
-markdown viewer. For easiest startup and usage, I recommend [Ghostwriter](https://ghostwriter.kde.org/). 
+## 如何查看这些笔记？
 
+这些笔记使用 **Markdown** 格式编写（文件扩展名为 `.md`），因此您需要一个 Markdown 阅读器。为了快速上手和使用，我推荐 [Ghostwriter](https://ghostwriter.kde.org/)。
