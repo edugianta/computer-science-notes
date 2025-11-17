@@ -1,0 +1,75 @@
+h1, h2, p, ul, ol, li, label, tr, th, input{
+      font-family: Roboto, sans-serif;
+      color:white;
+}
+input {
+  color:black;
+  font-weight: bold;
+}
+label, input {
+  margin: 5px;
+}
+td {
+  padding:5px;
+}
+ul, ol, li {
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  display: flex;
+  border-radius: 25px;
+  flex-direction: column;
+  background-color: #415a77;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #0d1b2a;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-around;
+  gap:50px;
+  background-color: #778da9;
+}
+
+.image-and-text {
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+  gap:50px;
+  background-color: #1b263b;
+
+}
+
+table, th, td{
+  border: 2px solid white;
+}
+
+.hobbies {
+  display:flex;
+  justify-content: space-around;
+  background-color: #415a77;
+}
+img {
+  flex: 0 0 auto;
+  width: 40%;
+  padding: 20px;
+  border-radius: 25px;
+}
+#intro-text{
+  padding:20px;
+  font-size: 18pt;
+}
+
+.contact-form-info-table {
+  display:flex;
+  justify-content: space-around;
+  padding:10px;
+}
