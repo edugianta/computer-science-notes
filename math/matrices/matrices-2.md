@@ -90,6 +90,19 @@ $a_{i,j}$ is defined as $A_{i,j} = (-1)^{i+j} M_{i,j}$.
 An adjugate matrix is a matrice filled with the cofactor of each element from
 the original matrix. 
 
+For a second order matrix:
+$$
+\begin{bmatrix} a & b \\ c & d \end{bmatrix}
+$$
+$C_{11} = +d$ 
+
+$C_{12} = -c$
+
+$C_{21} = -b$
+
+$C_{22} = +a$
+
+Just swap \( a \) and \( d \), negate \( b \) and \( c \), with signs from checkerboard.
 ## Determinants
 
 We can find determinants using the 'First Laplace Theorem'. It states that: 
@@ -104,6 +117,11 @@ $$
 Basically, pick any row and column and multiply each element in that row or
 column by its co-factor, and add it up. 
 
+But, if you have a two order matrix, 
+$$
+\begin{bmatrix} a & b \\ c & d \end{bmatrix}
+$$
+Its determinant is simply $ad-bc$.
 ## The second Laplace Theorem 
 
 The second Laplace Theorem states that the sum of elements in a row multiplied
